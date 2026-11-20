@@ -1,0 +1,6 @@
+services:
+    - type: worker
+    name: friendzone-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
